@@ -5,6 +5,7 @@ body {
 #container {
     color: #2c2654;
     margin: 20px;
+    padding-bottom: 30px;
     border: 1px solid indigo;
     border-radius: 5px;
 }
@@ -15,7 +16,8 @@ body {
 #container p {
     font-size: 18px;
     line-height: 30px;
-    padding-left: 20px;
+    padding: 0 50px;
+    text-align: justify;
 }
 #cabecera {
     background-color: #5946c2;
