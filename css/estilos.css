@@ -2,32 +2,39 @@ body {
     color: darkblue;
     font-family: Arial, Helvetica, sans-serif;
 }
-#container {
-    color: #2c2654;
-    margin: 20px;
-    padding-bottom: 30px;
-    border: 1px solid indigo;
-    border-radius: 5px;
+main {
+    max-width: 1200px;
+    margin: 0 auto;
 }
-#container h1 {
-    font-size: 45px;
-    padding-left: 20px;
-}
-#container p {
-    font-size: 18px;
-    line-height: 30px;
-    padding: 0 50px;
-    text-align: justify;
-}
-#cabecera {
-    background-color: #5946c2;
-    color: white;
-    font-size: 30px;
+.contenedor {
+    background-image: url("../imgs/header-bg-2.jpg");
+    height: 200px;
+    object-fit: cover;
     padding: 20px;
+    box-shadow: -9px 10px 15px -4px rgba(0,0,0,0.37);
+}
+h1 {
+    font-size: 50px;
     font-weight: bold;
     font-style: italic;
-    box-shadow: 0px 18px 25px -10px rgba(0,0,0,0.33);
+    color: #fff;
+    text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.78);
 }
 #tagline {
     font-weight: 300;
+    font-size: 40px;
+    color: #ffd900;
+}
+.logo {
+    width: 200px;
+    position: absolute;
+    right: 20px;
+}
+.contenido {
+    padding: 30px;
+}
+.contenido p {
+    text-align:justify;
+    font-size: 16px;
+    line-height: 1.5em;
 }
