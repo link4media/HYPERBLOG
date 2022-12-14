@@ -59,8 +59,8 @@ main {
 .footer {
     height: 80px;
     width: 1200px;
-    color: darkblue;
-    background-color: aquamarine;
+    color: #fff;
+    background-color: rgb(20, 41, 61);
     position: absolute;
     bottom: 0;
     padding: 20px 0 0 0;
