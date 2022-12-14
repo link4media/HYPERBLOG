@@ -6,29 +6,44 @@ main {
     max-width: 1200px;
     margin: 0 auto;
 }
-.contenedor {
+.container {
+    max-width: 1200px;
+    /* padding: 0px 30px 0px 30px; */
     background-image: url("../imgs/header-bg-2.jpg");
-    height: 200px;
     object-fit: cover;
-    padding: 20px;
     box-shadow: -9px 10px 15px -4px rgba(0,0,0,0.37);
+    
 }
-h1 {
+.container-grid {
+    height: 300px;
+    display: grid;
+    grid-template-columns: 700px 500px;
+    grid-template-rows: 50px 200px 50px;
+    align-items: center;
+    justify-content: center;
+}
+.titulo {
     font-size: 50px;
     font-weight: bold;
     font-style: italic;
     color: #fff;
     text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.78);
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    justify-self: end;
+}
+.logo {
+    height: 200px;
+    width: 200px;
+    box-shadow: -9px 10px 15px -4px rgba(0,0,0,0.37);
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    justify-self: center;
 }
 #tagline {
     font-weight: 300;
     font-size: 40px;
     color: #ffd900;
-}
-.logo {
-    width: 200px;
-    position: absolute;
-    right: 20px;
 }
 .contenido {
     padding: 30px;
