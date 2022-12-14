@@ -53,3 +53,20 @@ main {
     font-size: 16px;
     line-height: 1.5em;
 }
+
+/*FOOTER*/
+
+.footer {
+    height: 80px;
+    width: 1200px;
+    color: darkblue;
+    background-color: aquamarine;
+    position: absolute;
+    bottom: 0;
+    padding: 20px 0 0 0;
+}
+.copyright {
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
