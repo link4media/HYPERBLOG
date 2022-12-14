@@ -9,7 +9,7 @@ main {
 .container {
     max-width: 1200px;
     /* padding: 0px 30px 0px 30px; */
-    background-image: url("../imgs/header-bg-2.jpg");
+    background-image: url("../imgs/header-bg-1.jpg");
     object-fit: cover;
     box-shadow: -9px 10px 15px -4px rgba(0,0,0,0.37);
     
